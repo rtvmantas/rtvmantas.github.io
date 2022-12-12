@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/majaslapa4.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>RTV pazustās un atrastās mantas</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #e3b56b;
+  color: rgb(162, 63, 63);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: rgba(15, 71, 136, 0.908);
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>RTV atrastās mantas</h1>
+  <p></p>
+</div>
+
+<div class="navbar">
+  <a href="https://script.google.com/macros/s/AKfycbzoAqm72FLIc-L5lgD0--ioFHhJyR5JZ8Qe6ZeWiwnJeq1sWPnG1x_FJS3oomz5HScb/exec">Atradu</a>
+  <a href="http://127.0.0.1:5500/majaslapa.html">Pazaudēju</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Par mums👇</h2>
+    <div class="fakeimg" style="height:200px;">✮Mēs esam četri cilvēki, kas izveidoja šo mājaslapu. Mūsu mājaslapas mērķis ir palīdzēt cilvēkiem ātrāk un vieglāk atrast savas pazudušās mantas.</div>
+    <h3>Ja ir kādi jautājumi sazinaties ar mums šeit:</h3>
+    <div class="fakeimg" style="height:60px;">e-mail:rtvpazudusasmantas@gmail.com</div><br>
+    <div class="fakeimg" style="height:60px;">tel.nr:2323232</div><br>
+  </div>
+  <div class="main">
+    <h2>iPhone 14 Pro Max 📱</h2>
+    <h5>Atrasts, 12.12.22.</h5>
+    <p>💙Telefons tika atrast skolas ēdnīcā. 
+    </p><p>💙Ja šis ir Jūsu telefons, lūdzu sazvanieties ar mums.</p>
+    <img src="./RTV pazustās un atrastās mantas_files/IMG_4709_1663334970035_1663413643341_1663413643341.jpg" class="fakeimg" style="height:300px;"></div>
+    
+    <br>
+</div>
+
+<div class="footer">
+  <h2>Ja esiet kādu mantu atraduši, spiežat "Atradu" linku,bet, ja esat pazaudējuši mantu, tad spiežat "Pazaudēju" linku. Un aizpildiet anketu.😇 </h2>
+</div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
