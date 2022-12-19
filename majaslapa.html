@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrastās mantas RTV</title>
+    <link rel="stylesheet" href="vizualais.css">
+
+
+    <style>
+        body {
+            font-size: 2.5em;
+            background-color: rgba(235, 189, 132, 0.55);
+            margin-top: 3%;
+            margin-right: 0%;
+            margin-bottom: 3%;
+            text-align: center;
+
+
+        }
+
+
+
+        h1 {
+            margin: 0%;
+            background-color: rgb(218, 147, 60);
+            text-align: center;
+            font-family: 'Limelight';
+
+            font-size: 70px;
+            text-decoration: rgba(226, 147, 42, 0.904);
+
+            height: 150px;
+            padding-top: 4%;
+        }
+
+        head {
+            background-color: rgb(190, 130, 40);
+        }
+
+        input,
+        select {
+            background-color: rgba(218, 139, 44, 0.55);
+            border: none;
+            color: rgb(82, 49, 27);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(235, 189, 132, 0.55);
+            gap: 2rem;
+        }
+
+        .cont1 {
+            width: 50%;
+            text-align: bottom;
+        }
+
+        .cont3 {
+            display: flex;
+
+            width: 50%;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: center;
+            margin: 15px;
+            gap: 15px;
+
+        }
+
+        .cont3-submit {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            align-items: flex-end;
+            justify-content: center;
+            margin: 15px;
+            gap: 15px;
+        }
+        textarea{
+            resize:none
+        }
+    </style>
+</head>
+
+<body>
+    <h1>RTV Atrastās mantas </h1>
+
+    <form action**>
+
+        <!-- <label for="name"> Ievadi savu vārdu:</label> <br>
+        <input type="text" id="surname" name="surname">
+        
+    <br>
+        <label for="name"> Uzvārds</label>
+        <br>
+        <input type="text" id="surname" name="surname"> -->
+
+        <div class="cont1">
+            <br>
+            <label for="name"> Kategorija</label>
+            <br>
+            <select name="class" id="class" placeholder="Kategorija">
+                <option value="1"></option>
+                <option value="1"> Elektroierīces</option>
+                <option value="1">Grāmatas</option>
+                <option value="1"> Kleitas</option>
+                <option value="1"> Bikses</option>
+                <option value="1"> T-krekls</option>
+                <option value="1"> Skolas forma</option>
+                <option value="1"> Cits(norādi aprakstā)</option>                
+            </select>
+
+            <br>
+            <label for="name"> Krāsa</label><br>
+            <select name="class" id="class">
+                <option value="1"></option>
+                <option value="1"> Balts</option>
+                <option value="1"> Melns</option>
+                <option value="1"> Sarkans</option>
+                <option value="1"> Orandžs</option>
+                <option value="1"> Dzeltens</option>
+                <option value="1"> Zaļš</option>
+                <option value="1"> Zils</option>
+                <option value="1">Violets</option>
+                <option value="1">Raibs</option>
+            </select>
+
+
+            <br>
+            <label for="time">Datums</label><br>
+            <input type="datetime-local" name="time" id="time"> <br>
+            <!-- </div>
+        <div class="cont2">
+            <br>
+            <br>
+            
+
+
+            <br> <br> -->
+
+
+            <br>
+
+
+        </div>
+        <div class="cont3">
+            <label for="description"> Īss apraksts</label>
+            <br>
+            <textarea id="description" name="description" placeholder="Apraksti lietas īpašības" rows="4" cols="50"> </textarea>
+            <br>
+            <div class="cont3-submit">
+                <input type="submit" value="'Pievienot bildi">
+                <input type="submit" value="'Nosūtīt pieteiktumu">
+            </div>
+
+        </div>
+    </form>
+</body>
